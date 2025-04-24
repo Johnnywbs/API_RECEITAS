@@ -5,26 +5,26 @@ API que permite CRUD de ingredientes e receitas
 Este projeto utilizou Django Framework e Django REST Framework para criar e executar a API localmente. O banco de dados utilizado foi SQLite, um BD simples que vem embutida com a instalação do Python 3.
 
 # Como instalar e executar o Projeto
-1. Instalando o git
+1. Instalar o git
    Caso não possua o git em seu computador, execute o comando abaixo (Windows):
     ```bash
-          winget install --id Git.Git -e --source winget
+    winget install --id Git.Git -e --source winget
     
-2. Clonando o Repositório
+2. Clonar o Repositório
    Faça o **clone** deste repositório para a máquina local:
     ```bash
-         git clone https://github.com/Johnnywbs/recipes_project.git
-         cd recipes_project
+    git clone https://github.com/Johnnywbs/recipes_project.git
+    cd recipes_project
 
 3. Instalar as dependências
    No diretório do projeto, instale as dependências usando o pip:
    ```bash
-              pip install -r requirements.txt
+   pip install -r requirements.txt
 
 4. Executar a API localmente
   Com tudo configurado, você pode agora rodar a API localmente. No terminal, execute o comando:
    ```bash
-         .../recipes_project/py manage.py runserver
+   .../recipes_project/py manage.py runserver
    
 A API oferece os seguintes endpoints para CRUD (Criar, Ler, Atualizar e Deletar) de ingredientes e Receitas:
 
