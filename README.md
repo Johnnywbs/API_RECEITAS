@@ -9,8 +9,8 @@ Este projeto utilizou Django Framework e Django REST Framework para criar e exec
 1. Clonando o Repositório
    Primeiro, faça o **clone** deste repositório para a máquina local:
     ```bash
-         git clone https://github.com/usuario/API_receitas.git 
-         cd API_receitas
+         git clone https://github.com/usuario/recipes_project.git
+         cd recipes_project
 
 3. Instalar as dependências
    No diretório do projeto, instale as dependências usando o pip:
