@@ -1,4 +1,4 @@
-# API_RECEITAS
+# RECIPES_PROJECT
 API que permite CRUD de ingredientes e receitas
 
 
