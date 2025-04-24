@@ -12,16 +12,12 @@ Este projeto utilizou Django Framework e Django REST Framework para criar e exec
          git clone https://github.com/usuario/recipes_project.git
          cd recipes_project
 
-3. Instalar as dependências
+2. Instalar as dependências
    No diretório do projeto, instale as dependências usando o pip:
    ```bash
               pip install -r requirements.txt
 
-4. Acessar o diretório do projeto:
-   ```bash
-            cd recipes_project/
-
-5. Executar a API localmente
+3. Executar a API localmente
   Com tudo configurado, você pode agora rodar a API localmente. No terminal, execute o comando:
    ```bash
          .../recipes_project/py manage.py runserver
