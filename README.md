@@ -14,6 +14,8 @@ Este projeto utilizou Django Framework e Django REST Framework para criar e exec
    Faça o **clone** deste repositório para a máquina local:
     ```bash
     git clone https://github.com/Johnnywbs/recipes_project.git
+    ```
+    ```bash
     cd recipes_project
 
 3. Instalar as dependências
