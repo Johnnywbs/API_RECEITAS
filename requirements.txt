@@ -1,2 +1,3 @@
 django==4.2  # Versão mais recente do Django
 djangorestframework==3.14.0  # Framework para criar a API REST
+psycopg2-binary==2.9.10  # Conecta o BD postgres com o django
