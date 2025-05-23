@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure--(3q@o)3hnr2@jd6*q+i42x7k-n(&19pbw8t2lr3r79x8%+7@-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['makereceitas.azurewebsites.net','makereceitas.jonathaswancler.shop']
+ALLOWED_HOSTS = ['makerecipes.jonathaswancler.shop']
 
 
 # Application definition
@@ -77,8 +77,8 @@ WSGI_APPLICATION = 'recipes_project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'recipes_project',
-        'HOST': 'db',
+        'NAME': 'recipes-project',
+        'HOST': 'recipes-db1',
         'USER': 'postgres',
         'PASSWORD': '12345',
         'PORT': '5432',
