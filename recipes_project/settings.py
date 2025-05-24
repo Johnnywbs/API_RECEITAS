@@ -77,10 +77,10 @@ WSGI_APPLICATION = 'recipes_project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': os.getenv('DB_NAME', 'recipes-project'),
-        'USER': os.getenv('DB_USER', 'wgurgxnphh'),
-        'PASSWORD': os.getenv('DB_PASSWORD', 'G$VRA6CNnbdjtr4e'),
-        'HOST': os.getenv('DB_HOST', 'recipes-db1.postgres.database.azure.com'),
+        'NAME': 'recipes-project',
+        'USER': 'wgurgxnphh',
+        'PASSWORD': 'G$VRA6CNnbdjtr4e',
+        'HOST': 'recipes-db1.postgres.database.azure.com',
         'PORT': '5432',
     }
 }
