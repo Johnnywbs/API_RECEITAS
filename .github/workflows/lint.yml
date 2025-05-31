@@ -8,7 +8,7 @@ on:
       - main
 jobs:     
   lint:
-    runs-on: ubuntu-lastest
+    runs-on: ubuntu-latest  # Fixed typo: 'lastest' -> 'latest'
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -16,13 +16,13 @@ jobs:
       - name: Set up python
         uses: actions/setup-python@v4
         with:
-            cahce: 'true'
-            python-version: '3.12'
+          cache: 'true'  # Fixed typo: 'cahce' -> 'cache'
+          python-version: '3.12'
         
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: install and run pylint
+      - name: Install and run pylint
         run: |
           pip install pylint
           pylint $(find . -name "*.py")
