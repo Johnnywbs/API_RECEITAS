@@ -13,15 +13,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup python
+      - name: Set up python
         uses: actions/setup-python@v4
         with:
             cahce: 'true'
             python-version: '3.12'
-      - name: Create and start virtual environment
-        run: |
-          python -m venv venv
-          source venv/bin/activate
         
       - name: Install dependencies
         run: pip install -r requirements.txt
